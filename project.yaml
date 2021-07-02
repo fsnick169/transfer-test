@@ -10,7 +10,7 @@ dataSources:
     startBlock: 1
     mapping:
       handlers:
-        - handler: handleEvent
+        - handler: handleTransfer
           kind: substrate/EventHandler
           filter:
             module: balances
